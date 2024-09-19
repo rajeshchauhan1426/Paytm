@@ -8,7 +8,7 @@ const client = new PrismaClient()
 export default function Home() {
   return (
     <div className="text-2xl">
-      hi there hello
+      hi there hello from admin page 
     </div>
   );
 }
