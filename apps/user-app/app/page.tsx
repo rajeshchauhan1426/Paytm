@@ -1,6 +1,6 @@
 "use client"
 import { signIn, signOut, useSession } from "next-auth/react";
-import { Appbar } from "@repo/ui/App";
+import { Appbar } from "@repo/ui/app";
 
 export default function Page(): JSX.Element {
   const session = useSession();
